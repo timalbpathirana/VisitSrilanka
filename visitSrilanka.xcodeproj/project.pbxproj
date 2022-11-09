@@ -20,6 +20,10 @@
 		8695C6C9291B3B2D00038F21 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6C8291B3B2D00038F21 /* InfoView.swift */; };
 		8695C6CB291B3B3B00038F21 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6CA291B3B3B00038F21 /* MainView.swift */; };
 		8695C6CD291B3D2F00038F21 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6CC291B3D2F00038F21 /* ContactView.swift */; };
+		8695C6CF291B3F4300038F21 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6CE291B3F4300038F21 /* CoverImageView.swift */; };
+		8695C6D1291B3FEC00038F21 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 8695C6D0291B3FEC00038F21 /* covers.json */; };
+		8695C6D3291B429500038F21 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6D2291B429500038F21 /* CoverImageModel.swift */; };
+		8695C6D5291B435100038F21 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6D4291B435100038F21 /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		8695C6C8291B3B2D00038F21 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		8695C6CA291B3B3B00038F21 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8695C6CC291B3D2F00038F21 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		8695C6CE291B3F4300038F21 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		8695C6D0291B3FEC00038F21 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		8695C6D2291B429500038F21 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		8695C6D4291B435100038F21 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,7 @@
 		8695C6B9291B32F000038F21 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				8695C6D0291B3FEC00038F21 /* covers.json */,
 				8695C6C1291B38A400038F21 /* places.json */,
 			);
 			path = Data;
@@ -170,6 +179,7 @@
 		8695C6BB291B32F800038F21 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8695C6D2291B429500038F21 /* CoverImageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +187,7 @@
 		8695C6BC291B32FC00038F21 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8695C6CE291B3F4300038F21 /* CoverImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,6 +202,7 @@
 		8695C6BE291B330500038F21 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8695C6D4291B435100038F21 /* CodableBundleExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -300,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8695C6C2291B38A400038F21 /* places.json in Resources */,
+				8695C6D1291B3FEC00038F21 /* covers.json in Resources */,
 				8695C697291B32D400038F21 /* Preview Assets.xcassets in Resources */,
 				8695C694291B32D400038F21 /* Assets.xcassets in Resources */,
 			);
@@ -330,6 +343,9 @@
 				8695C6CB291B3B3B00038F21 /* MainView.swift in Sources */,
 				8695C6C9291B3B2D00038F21 /* InfoView.swift in Sources */,
 				8695C692291B32D300038F21 /* ContentView.swift in Sources */,
+				8695C6D5291B435100038F21 /* CodableBundleExtension.swift in Sources */,
+				8695C6D3291B429500038F21 /* CoverImageModel.swift in Sources */,
+				8695C6CF291B3F4300038F21 /* CoverImageView.swift in Sources */,
 				8695C6CD291B3D2F00038F21 /* ContactView.swift in Sources */,
 				8695C6C7291B3B0E00038F21 /* MapView.swift in Sources */,
 				8695C690291B32D300038F21 /* visitSrilankaApp.swift in Sources */,

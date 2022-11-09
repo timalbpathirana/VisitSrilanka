@@ -31,6 +31,9 @@ struct PlaceListItemView: View {
                     .padding(.trailing, 2)
             }
         }
+        .frame(maxWidth: .infinity)
+        .ignoresSafeArea()
+        .padding(.top, 5)
         }
     }
 

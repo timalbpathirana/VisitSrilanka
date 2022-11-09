@@ -15,4 +15,5 @@ struct Place: Identifiable, Codable {
     let link: String
     let image: String
     let fact: [String]
+    let gallery: [String]
 }

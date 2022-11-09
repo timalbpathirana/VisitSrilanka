@@ -19,16 +19,16 @@ struct ContentView: View {
                 CoverImageView()
                     .frame(height: 300)
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                ForEach(places) {place in
+                    NavigationLink(destination:PlaceDetailView(place: place)){
+                        PlaceListItemView(places: place)
+                    }// LINK
+                }
+            }// LIST
+            .listStyle(.plain)
             
-            ForEach(places) {place in
-                PlaceListItemView(places: place)
-                    
-                    
-                
-            }
-            }
-            .navigationBarTitle("Visit Srilanka", displayMode: .large)
-        }
+            .navigationBarTitle("VISIT SRILANKA", displayMode: .large)
+        }// NAV
     }
 }
 

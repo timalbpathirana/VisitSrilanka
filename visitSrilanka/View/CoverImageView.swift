@@ -23,6 +23,7 @@ struct CoverImageView: View {
       } //: LOOP
     } //: TAB
     .tabViewStyle(PageTabViewStyle())
+    .ignoresSafeArea()
   }
 }
 

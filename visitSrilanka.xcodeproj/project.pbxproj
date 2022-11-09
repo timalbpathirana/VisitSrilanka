@@ -15,6 +15,9 @@
 		864C7504291B71D7004DAF22 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C7503291B71D7004DAF22 /* InsetFactView.swift */; };
 		864C7506291B7250004DAF22 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C7505291B7250004DAF22 /* InsetMapView.swift */; };
 		864C7508291B73D0004DAF22 /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C7507291B73D0004DAF22 /* ExternalWeblinkView.swift */; };
+		8660283E291BADC400F6771F /* Cookie.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8660283D291BADC400F6771F /* Cookie.ttf */; };
+		86602842291BB09E00F6771F /* CoffeeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86602841291BB09E00F6771F /* CoffeeButtonView.swift */; };
+		868F64AF291BB12500AD0BB7 /* BMCButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F64AE291BB12500AD0BB7 /* BMCButtonView.swift */; };
 		8695C690291B32D300038F21 /* visitSrilankaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C68F291B32D300038F21 /* visitSrilankaApp.swift */; };
 		8695C692291B32D300038F21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C691291B32D300038F21 /* ContentView.swift */; };
 		8695C694291B32D400038F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8695C693291B32D400038F21 /* Assets.xcassets */; };
@@ -60,6 +63,9 @@
 		864C7503291B71D7004DAF22 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		864C7505291B7250004DAF22 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		864C7507291B73D0004DAF22 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
+		8660283D291BADC400F6771F /* Cookie.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cookie.ttf; sourceTree = "<group>"; };
+		86602841291BB09E00F6771F /* CoffeeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeButtonView.swift; sourceTree = "<group>"; };
+		868F64AE291BB12500AD0BB7 /* BMCButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMCButtonView.swift; sourceTree = "<group>"; };
 		8695C68C291B32D300038F21 /* visitSrilanka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visitSrilanka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8695C68F291B32D300038F21 /* visitSrilankaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitSrilankaApp.swift; sourceTree = "<group>"; };
 		8695C691291B32D300038F21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +137,7 @@
 		8695C68E291B32D300038F21 /* visitSrilanka */ = {
 			isa = PBXGroup;
 			children = (
+				8660283D291BADC400F6771F /* Cookie.ttf */,
 				8695C6C3291B39A200038F21 /* Info.plist */,
 				8695C6BE291B330500038F21 /* Extensions */,
 				8695C6BD291B330000038F21 /* Controller */,
@@ -212,6 +219,8 @@
 				864C7503291B71D7004DAF22 /* InsetFactView.swift */,
 				864C7505291B7250004DAF22 /* InsetMapView.swift */,
 				864C7507291B73D0004DAF22 /* ExternalWeblinkView.swift */,
+				86602841291BB09E00F6771F /* CoffeeButtonView.swift */,
+				868F64AE291BB12500AD0BB7 /* BMCButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,6 +347,7 @@
 				8695C6C2291B38A400038F21 /* places.json in Resources */,
 				8695C6D1291B3FEC00038F21 /* covers.json in Resources */,
 				8695C697291B32D400038F21 /* Preview Assets.xcassets in Resources */,
+				8660283E291BADC400F6771F /* Cookie.ttf in Resources */,
 				8695C694291B32D400038F21 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +376,7 @@
 				8695C6C5291B3AFB00038F21 /* VideoView.swift in Sources */,
 				864C74FC291B5920004DAF22 /* PlaceModel.swift in Sources */,
 				864C7502291B6D01004DAF22 /* InsetGalleryView.swift in Sources */,
+				868F64AF291BB12500AD0BB7 /* BMCButtonView.swift in Sources */,
 				8695C6CB291B3B3B00038F21 /* MainView.swift in Sources */,
 				8695C6C9291B3B2D00038F21 /* InfoView.swift in Sources */,
 				8695C692291B32D300038F21 /* ContentView.swift in Sources */,
@@ -379,6 +390,7 @@
 				8695C6CD291B3D2F00038F21 /* ContactView.swift in Sources */,
 				8695C6C7291B3B0E00038F21 /* MapView.swift in Sources */,
 				864C7506291B7250004DAF22 /* InsetMapView.swift in Sources */,
+				86602842291BB09E00F6771F /* CoffeeButtonView.swift in Sources */,
 				8695C690291B32D300038F21 /* visitSrilankaApp.swift in Sources */,
 				864C74FA291B5651004DAF22 /* PlaceListItemView.swift in Sources */,
 			);
@@ -467,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -521,7 +533,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -536,10 +548,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"visitSrilanka/Preview Content\"";
-				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				DEVELOPMENT_TEAM = 46DU46JC8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = visitSrilanka/Info.plist;
@@ -553,8 +566,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.visitSrilanka;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timal.visitSrilanka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -566,10 +580,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"visitSrilanka/Preview Content\"";
-				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				DEVELOPMENT_TEAM = 46DU46JC8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = visitSrilanka/Info.plist;
@@ -583,8 +598,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.visitSrilanka;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timal.visitSrilanka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -598,11 +614,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				DEVELOPMENT_TEAM = 46DU46JC8S;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.visitSrilankaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timal.visitSrilankaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -618,11 +634,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				DEVELOPMENT_TEAM = 46DU46JC8S;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.visitSrilankaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timal.visitSrilankaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -637,10 +653,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				DEVELOPMENT_TEAM = 46DU46JC8S;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.visitSrilankaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timal.visitSrilankaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -653,12 +669,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VQQ93NCYG9;
+				DEVELOPMENT_TEAM = 46DU46JC8S;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.webshey.visitSrilankaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.timal.visitSrilankaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

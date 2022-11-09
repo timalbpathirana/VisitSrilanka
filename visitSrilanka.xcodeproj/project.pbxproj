@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		864C74FA291B5651004DAF22 /* PlaceListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C74F9291B5651004DAF22 /* PlaceListItemView.swift */; };
+		864C74FC291B5920004DAF22 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C74FB291B5920004DAF22 /* PlaceModel.swift */; };
 		8695C690291B32D300038F21 /* visitSrilankaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C68F291B32D300038F21 /* visitSrilankaApp.swift */; };
 		8695C692291B32D300038F21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C691291B32D300038F21 /* ContentView.swift */; };
 		8695C694291B32D400038F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8695C693291B32D400038F21 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		864C74F9291B5651004DAF22 /* PlaceListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListItemView.swift; sourceTree = "<group>"; };
+		864C74FB291B5920004DAF22 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		8695C68C291B32D300038F21 /* visitSrilanka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visitSrilanka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8695C68F291B32D300038F21 /* visitSrilankaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitSrilankaApp.swift; sourceTree = "<group>"; };
 		8695C691291B32D300038F21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -180,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				8695C6D2291B429500038F21 /* CoverImageModel.swift */,
+				864C74FB291B5920004DAF22 /* PlaceModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				8695C6CE291B3F4300038F21 /* CoverImageView.swift */,
+				864C74F9291B5651004DAF22 /* PlaceListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -340,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8695C6C5291B3AFB00038F21 /* VideoView.swift in Sources */,
+				864C74FC291B5920004DAF22 /* PlaceModel.swift in Sources */,
 				8695C6CB291B3B3B00038F21 /* MainView.swift in Sources */,
 				8695C6C9291B3B2D00038F21 /* InfoView.swift in Sources */,
 				8695C692291B32D300038F21 /* ContentView.swift in Sources */,
@@ -349,6 +356,7 @@
 				8695C6CD291B3D2F00038F21 /* ContactView.swift in Sources */,
 				8695C6C7291B3B0E00038F21 /* MapView.swift in Sources */,
 				8695C690291B32D300038F21 /* visitSrilankaApp.swift in Sources */,
+				864C74FA291B5651004DAF22 /* PlaceListItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

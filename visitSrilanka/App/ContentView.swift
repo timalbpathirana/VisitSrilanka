@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     //MARK: Properties
+    let places: [Place] = Bundle.main.decode("places.json")
     
     //MARK: Body
     var body: some View {
@@ -18,8 +19,15 @@ struct ContentView: View {
                 CoverImageView()
                     .frame(height: 300)
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+            
+            ForEach(places) {place in
+                PlaceListItemView(places: place)
+                    
+                    
+                
             }
-            .navigationBarTitle("Visit Srilanka", displayMode: .automatic)
+            }
+            .navigationBarTitle("Visit Srilanka", displayMode: .large)
         }
     }
 }

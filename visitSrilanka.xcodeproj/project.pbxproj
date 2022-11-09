@@ -14,7 +14,12 @@
 		8695C6A1291B32D400038F21 /* visitSrilankaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6A0291B32D400038F21 /* visitSrilankaTests.swift */; };
 		8695C6AB291B32D500038F21 /* visitSrilankaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6AA291B32D500038F21 /* visitSrilankaUITests.swift */; };
 		8695C6AD291B32D500038F21 /* visitSrilankaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6AC291B32D500038F21 /* visitSrilankaUITestsLaunchTests.swift */; };
-		8695C6C0291B331000038F21 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6BF291B331000038F21 /* MainView.swift */; };
+		8695C6C2291B38A400038F21 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = 8695C6C1291B38A400038F21 /* places.json */; };
+		8695C6C5291B3AFB00038F21 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6C4291B3AFB00038F21 /* VideoView.swift */; };
+		8695C6C7291B3B0E00038F21 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6C6291B3B0E00038F21 /* MapView.swift */; };
+		8695C6C9291B3B2D00038F21 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6C8291B3B2D00038F21 /* InfoView.swift */; };
+		8695C6CB291B3B3B00038F21 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6CA291B3B3B00038F21 /* MainView.swift */; };
+		8695C6CD291B3D2F00038F21 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6CC291B3D2F00038F21 /* ContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +50,13 @@
 		8695C6A6291B32D500038F21 /* visitSrilankaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = visitSrilankaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8695C6AA291B32D500038F21 /* visitSrilankaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitSrilankaUITests.swift; sourceTree = "<group>"; };
 		8695C6AC291B32D500038F21 /* visitSrilankaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitSrilankaUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		8695C6BF291B331000038F21 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8695C6C1291B38A400038F21 /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
+		8695C6C3291B39A200038F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8695C6C4291B3AFB00038F21 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		8695C6C6291B3B0E00038F21 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8695C6C8291B3B2D00038F21 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		8695C6CA291B3B3B00038F21 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8695C6CC291B3D2F00038F21 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,14 +107,13 @@
 		8695C68E291B32D300038F21 /* visitSrilanka */ = {
 			isa = PBXGroup;
 			children = (
+				8695C6C3291B39A200038F21 /* Info.plist */,
 				8695C6BE291B330500038F21 /* Extensions */,
 				8695C6BD291B330000038F21 /* Controller */,
 				8695C6BC291B32FC00038F21 /* View */,
 				8695C6BB291B32F800038F21 /* Model */,
 				8695C6BA291B32F500038F21 /* App */,
 				8695C6B9291B32F000038F21 /* Data */,
-				8695C68F291B32D300038F21 /* visitSrilankaApp.swift */,
-				8695C691291B32D300038F21 /* ContentView.swift */,
 				8695C693291B32D400038F21 /* Assets.xcassets */,
 				8695C695291B32D400038F21 /* Preview Content */,
 			);
@@ -138,6 +148,7 @@
 		8695C6B9291B32F000038F21 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				8695C6C1291B38A400038F21 /* places.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -145,6 +156,13 @@
 		8695C6BA291B32F500038F21 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				8695C68F291B32D300038F21 /* visitSrilankaApp.swift */,
+				8695C691291B32D300038F21 /* ContentView.swift */,
+				8695C6C4291B3AFB00038F21 /* VideoView.swift */,
+				8695C6C6291B3B0E00038F21 /* MapView.swift */,
+				8695C6C8291B3B2D00038F21 /* InfoView.swift */,
+				8695C6CA291B3B3B00038F21 /* MainView.swift */,
+				8695C6CC291B3D2F00038F21 /* ContactView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -159,7 +177,6 @@
 		8695C6BC291B32FC00038F21 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8695C6BF291B331000038F21 /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8695C6C2291B38A400038F21 /* places.json in Resources */,
 				8695C697291B32D400038F21 /* Preview Assets.xcassets in Resources */,
 				8695C694291B32D400038F21 /* Assets.xcassets in Resources */,
 			);
@@ -308,8 +326,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8695C6C5291B3AFB00038F21 /* VideoView.swift in Sources */,
+				8695C6CB291B3B3B00038F21 /* MainView.swift in Sources */,
+				8695C6C9291B3B2D00038F21 /* InfoView.swift in Sources */,
 				8695C692291B32D300038F21 /* ContentView.swift in Sources */,
-				8695C6C0291B331000038F21 /* MainView.swift in Sources */,
+				8695C6CD291B3D2F00038F21 /* ContactView.swift in Sources */,
+				8695C6C7291B3B0E00038F21 /* MapView.swift in Sources */,
 				8695C690291B32D300038F21 /* visitSrilankaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,11 +494,12 @@
 				DEVELOPMENT_TEAM = VQQ93NCYG9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = visitSrilanka/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,11 +524,12 @@
 				DEVELOPMENT_TEAM = VQQ93NCYG9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = visitSrilanka/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

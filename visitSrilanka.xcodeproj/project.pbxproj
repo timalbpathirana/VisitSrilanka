@@ -14,6 +14,7 @@
 		8695C6A1291B32D400038F21 /* visitSrilankaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6A0291B32D400038F21 /* visitSrilankaTests.swift */; };
 		8695C6AB291B32D500038F21 /* visitSrilankaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6AA291B32D500038F21 /* visitSrilankaUITests.swift */; };
 		8695C6AD291B32D500038F21 /* visitSrilankaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6AC291B32D500038F21 /* visitSrilankaUITestsLaunchTests.swift */; };
+		8695C6C0291B331000038F21 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6BF291B331000038F21 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8695C6A6291B32D500038F21 /* visitSrilankaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = visitSrilankaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8695C6AA291B32D500038F21 /* visitSrilankaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitSrilankaUITests.swift; sourceTree = "<group>"; };
 		8695C6AC291B32D500038F21 /* visitSrilankaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitSrilankaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8695C6BF291B331000038F21 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,12 @@
 		8695C68E291B32D300038F21 /* visitSrilanka */ = {
 			isa = PBXGroup;
 			children = (
+				8695C6BE291B330500038F21 /* Extensions */,
+				8695C6BD291B330000038F21 /* Controller */,
+				8695C6BC291B32FC00038F21 /* View */,
+				8695C6BB291B32F800038F21 /* Model */,
+				8695C6BA291B32F500038F21 /* App */,
+				8695C6B9291B32F000038F21 /* Data */,
 				8695C68F291B32D300038F21 /* visitSrilankaApp.swift */,
 				8695C691291B32D300038F21 /* ContentView.swift */,
 				8695C693291B32D400038F21 /* Assets.xcassets */,
@@ -125,6 +133,49 @@
 				8695C6AC291B32D500038F21 /* visitSrilankaUITestsLaunchTests.swift */,
 			);
 			path = visitSrilankaUITests;
+			sourceTree = "<group>";
+		};
+		8695C6B9291B32F000038F21 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8695C6BA291B32F500038F21 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8695C6BB291B32F800038F21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8695C6BC291B32FC00038F21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8695C6BF291B331000038F21 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8695C6BD291B330000038F21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8695C6BE291B330500038F21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8695C692291B32D300038F21 /* ContentView.swift in Sources */,
+				8695C6C0291B331000038F21 /* MainView.swift in Sources */,
 				8695C690291B32D300038F21 /* visitSrilankaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

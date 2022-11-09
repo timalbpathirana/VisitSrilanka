@@ -17,9 +17,9 @@ struct CoverImageView: View {
   var body: some View {
     TabView {
       ForEach(coverImages) { item in
-        Image(item.name)
+          Image(item.name)
           .resizable()
-          .scaledToFill()
+          .scaledToFit()
       } //: LOOP
     } //: TAB
     .tabViewStyle(PageTabViewStyle())
@@ -31,6 +31,6 @@ struct CoverImageView: View {
 struct CoverImageView_Previews: PreviewProvider {
   static var previews: some View {
     CoverImageView()
-      .previewLayout(.fixed(width: 400, height: 300))
+     .previewLayout(.fixed(width: 400, height: 300))
   }
 }

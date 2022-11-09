@@ -8,6 +8,6 @@
 import Foundation
 
 struct CoverImage: Identifiable, Codable {
-let id: String
+let id: Int
 let name: String
 }

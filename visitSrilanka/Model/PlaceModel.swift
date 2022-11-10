@@ -19,6 +19,7 @@ struct Place: Identifiable, Codable {
     let gallery: [String]
     let latitude: Double
     let longitude: Double
+    let ticket: String
     
     
     var location : CLLocationCoordinate2D{

@@ -11,7 +11,7 @@ struct PlaceGridItemView: View {
     
     let place: Place
     var body: some View {
-        ZStack{
+        VStack{
             Image(place.image)
             .resizable()
             .aspectRatio(contentMode: .fill)
@@ -36,12 +36,14 @@ struct PlaceGridItemView: View {
                     .foregroundColor(.black)
                     .opacity(0.4)
                     .padding(6)
+                    .frame(width: 200, height: 80)
             }
             
             
         }// overlay
         }// Vstack
-        .frame(width: 200, height: 230, alignment: .top)
+//.frame(width: 200, height: 230, alignment: .top)
+        .scaledToFit()
         .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
         .shadow(color: Color.black.opacity(0.3), radius: 15, x: 0, y: 10)
     }

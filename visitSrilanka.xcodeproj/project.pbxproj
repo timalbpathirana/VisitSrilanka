@@ -18,6 +18,8 @@
 		8660283E291BADC400F6771F /* Cookie.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8660283D291BADC400F6771F /* Cookie.ttf */; };
 		86602842291BB09E00F6771F /* CoffeeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86602841291BB09E00F6771F /* CoffeeButtonView.swift */; };
 		868F64AF291BB12500AD0BB7 /* BMCButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F64AE291BB12500AD0BB7 /* BMCButtonView.swift */; };
+		868F64B3291C8BF100AD0BB7 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F64B2291C8BF100AD0BB7 /* MapAnnotationView.swift */; };
+		868F64B5291C94CD00AD0BB7 /* ExploreLankaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F64B4291C94CD00AD0BB7 /* ExploreLankaView.swift */; };
 		8695C690291B32D300038F21 /* visitSrilankaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C68F291B32D300038F21 /* visitSrilankaApp.swift */; };
 		8695C692291B32D300038F21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C691291B32D300038F21 /* ContentView.swift */; };
 		8695C694291B32D400038F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8695C693291B32D400038F21 /* Assets.xcassets */; };
@@ -26,7 +28,6 @@
 		8695C6AB291B32D500038F21 /* visitSrilankaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6AA291B32D500038F21 /* visitSrilankaUITests.swift */; };
 		8695C6AD291B32D500038F21 /* visitSrilankaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6AC291B32D500038F21 /* visitSrilankaUITestsLaunchTests.swift */; };
 		8695C6C2291B38A400038F21 /* places.json in Resources */ = {isa = PBXBuildFile; fileRef = 8695C6C1291B38A400038F21 /* places.json */; };
-		8695C6C5291B3AFB00038F21 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6C4291B3AFB00038F21 /* VideoView.swift */; };
 		8695C6C7291B3B0E00038F21 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6C6291B3B0E00038F21 /* MapView.swift */; };
 		8695C6C9291B3B2D00038F21 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6C8291B3B2D00038F21 /* InfoView.swift */; };
 		8695C6CB291B3B3B00038F21 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6CA291B3B3B00038F21 /* MainView.swift */; };
@@ -66,6 +67,8 @@
 		8660283D291BADC400F6771F /* Cookie.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cookie.ttf; sourceTree = "<group>"; };
 		86602841291BB09E00F6771F /* CoffeeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeButtonView.swift; sourceTree = "<group>"; };
 		868F64AE291BB12500AD0BB7 /* BMCButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMCButtonView.swift; sourceTree = "<group>"; };
+		868F64B2291C8BF100AD0BB7 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		868F64B4291C94CD00AD0BB7 /* ExploreLankaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreLankaView.swift; sourceTree = "<group>"; };
 		8695C68C291B32D300038F21 /* visitSrilanka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visitSrilanka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8695C68F291B32D300038F21 /* visitSrilankaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitSrilankaApp.swift; sourceTree = "<group>"; };
 		8695C691291B32D300038F21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,7 +81,6 @@
 		8695C6AC291B32D500038F21 /* visitSrilankaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visitSrilankaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8695C6C1291B38A400038F21 /* places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = places.json; sourceTree = "<group>"; };
 		8695C6C3291B39A200038F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8695C6C4291B3AFB00038F21 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		8695C6C6291B3B0E00038F21 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		8695C6C8291B3B2D00038F21 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		8695C6CA291B3B3B00038F21 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -190,11 +192,11 @@
 			children = (
 				8695C68F291B32D300038F21 /* visitSrilankaApp.swift */,
 				8695C691291B32D300038F21 /* ContentView.swift */,
-				8695C6C4291B3AFB00038F21 /* VideoView.swift */,
 				8695C6C6291B3B0E00038F21 /* MapView.swift */,
 				8695C6C8291B3B2D00038F21 /* InfoView.swift */,
 				8695C6CA291B3B3B00038F21 /* MainView.swift */,
 				8695C6CC291B3D2F00038F21 /* ContactView.swift */,
+				868F64B4291C94CD00AD0BB7 /* ExploreLankaView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -221,6 +223,7 @@
 				864C7507291B73D0004DAF22 /* ExternalWeblinkView.swift */,
 				86602841291BB09E00F6771F /* CoffeeButtonView.swift */,
 				868F64AE291BB12500AD0BB7 /* BMCButtonView.swift */,
+				868F64B2291C8BF100AD0BB7 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -373,14 +376,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8695C6C5291B3AFB00038F21 /* VideoView.swift in Sources */,
 				864C74FC291B5920004DAF22 /* PlaceModel.swift in Sources */,
 				864C7502291B6D01004DAF22 /* InsetGalleryView.swift in Sources */,
 				868F64AF291BB12500AD0BB7 /* BMCButtonView.swift in Sources */,
 				8695C6CB291B3B3B00038F21 /* MainView.swift in Sources */,
 				8695C6C9291B3B2D00038F21 /* InfoView.swift in Sources */,
+				868F64B3291C8BF100AD0BB7 /* MapAnnotationView.swift in Sources */,
 				8695C692291B32D300038F21 /* ContentView.swift in Sources */,
 				864C7500291B6C45004DAF22 /* HeadingView.swift in Sources */,
+				868F64B5291C94CD00AD0BB7 /* ExploreLankaView.swift in Sources */,
 				8695C6D5291B435100038F21 /* CodableBundleExtension.swift in Sources */,
 				864C7508291B73D0004DAF22 /* ExternalWeblinkView.swift in Sources */,
 				8695C6D3291B429500038F21 /* CoverImageModel.swift in Sources */,

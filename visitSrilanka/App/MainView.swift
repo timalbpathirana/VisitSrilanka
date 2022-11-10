@@ -12,21 +12,25 @@ struct MainView: View {
         TabView {
             ContentView()
                        .tabItem {
-                           Label("Home", systemImage: "list.dash")
+                           Label("Home", systemImage: "house.fill")
                        }
+            ExploreLankaView()
+                .tabItem {
+                    Label("Explore", systemImage: "figure.walk")
+                }
             MapView()
                 .tabItem{
-                    Label("Map", systemImage: "square.and.pencil")
+                    Label("Map", systemImage: "map.fill")
                 }
 
             InfoView()
                 .tabItem {
-                    Label("Info", systemImage: "square.and.pencil")
+                    Label("News", systemImage: "info.circle.fill")
             }
             
             ContactView()
                 .tabItem{
-                    Label("Contact", systemImage: "square.and.pencil")
+                    Label("Contact", systemImage: "text.bubble.fill")
                 }
             
                }

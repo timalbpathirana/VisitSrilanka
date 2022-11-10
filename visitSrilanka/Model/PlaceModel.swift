@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import MapKit
 
 struct Place: Identifiable, Codable {
     let id: String
@@ -16,4 +17,11 @@ struct Place: Identifiable, Codable {
     let image: String
     let fact: [String]
     let gallery: [String]
+    let latitude: Double
+    let longitude: Double
+    
+    
+    var location : CLLocationCoordinate2D{
+        CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
 }

@@ -69,7 +69,7 @@ struct PlaceDetailView: View {
                 Group {
                  HeadingView(headingImage: "map", headingText: "Location Details")
                   
-                  InsetMapView()
+                    InsetMapView(place: place)
                 }
                 .padding(.horizontal)
                 

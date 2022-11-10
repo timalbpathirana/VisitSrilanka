@@ -53,6 +53,8 @@ struct ContentView: View {
                                 PlaceListItemView(places: place)
                             }// LINK
                         }
+                        CreditsView()
+                            .modifier(CenterModifier())
                     }
                 } else {
                     ScrollView(.vertical, showsIndicators: false) {

@@ -37,6 +37,8 @@
 		8695C6D1291B3FEC00038F21 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 8695C6D0291B3FEC00038F21 /* covers.json */; };
 		8695C6D3291B429500038F21 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6D2291B429500038F21 /* CoverImageModel.swift */; };
 		8695C6D5291B435100038F21 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8695C6D4291B435100038F21 /* CodableBundleExtension.swift */; };
+		86A731AF291CC1CD00E35FCC /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A731AE291CC1CD00E35FCC /* CenterModifier.swift */; };
+		86A731B1291CC1E600E35FCC /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A731B0291CC1E600E35FCC /* CreditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +93,8 @@
 		8695C6D0291B3FEC00038F21 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 		8695C6D2291B429500038F21 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		8695C6D4291B435100038F21 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		86A731AE291CC1CD00E35FCC /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
+		86A731B0291CC1E600E35FCC /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 		8695C68E291B32D300038F21 /* visitSrilanka */ = {
 			isa = PBXGroup;
 			children = (
+				86A731AD291CC1C500E35FCC /* Mods */,
 				8660283D291BADC400F6771F /* Cookie.ttf */,
 				8695C6C3291B39A200038F21 /* Info.plist */,
 				8695C6BE291B330500038F21 /* Extensions */,
@@ -227,6 +232,7 @@
 				868F64AE291BB12500AD0BB7 /* BMCButtonView.swift */,
 				868F64B2291C8BF100AD0BB7 /* MapAnnotationView.swift */,
 				868F64B6291CA9A900AD0BB7 /* PlaceGridItemView.swift */,
+				86A731B0291CC1E600E35FCC /* CreditView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,6 +250,14 @@
 				8695C6D4291B435100038F21 /* CodableBundleExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		86A731AD291CC1C500E35FCC /* Mods */ = {
+			isa = PBXGroup;
+			children = (
+				86A731AE291CC1CD00E35FCC /* CenterModifier.swift */,
+			);
+			path = Mods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				864C74FC291B5920004DAF22 /* PlaceModel.swift in Sources */,
+				86A731B1291CC1E600E35FCC /* CreditView.swift in Sources */,
 				864C7502291B6D01004DAF22 /* InsetGalleryView.swift in Sources */,
 				868F64AF291BB12500AD0BB7 /* BMCButtonView.swift in Sources */,
 				8695C6CB291B3B3B00038F21 /* MainView.swift in Sources */,
@@ -400,6 +415,7 @@
 				86602842291BB09E00F6771F /* CoffeeButtonView.swift in Sources */,
 				8695C690291B32D300038F21 /* visitSrilankaApp.swift in Sources */,
 				864C74FA291B5651004DAF22 /* PlaceListItemView.swift in Sources */,
+				86A731AF291CC1CD00E35FCC /* CenterModifier.swift in Sources */,
 				868F64B7291CA9A900AD0BB7 /* PlaceGridItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

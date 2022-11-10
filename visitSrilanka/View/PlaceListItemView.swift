@@ -1,7 +1,6 @@
 //
 //  PlaceListItemView.swift
 //  visitSrilanka
-//
 //  Created by Timal Pathirana on 9/11/2022.
 //
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86322561291CD51A00662F8C /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86322560291CD51A00662F8C /* ShopView.swift */; };
+		86322563291D190600662F8C /* HotelListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86322562291D190600662F8C /* HotelListItemView.swift */; };
+		86322566291D20D700662F8C /* HotelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86322565291D20D700662F8C /* HotelModel.swift */; };
+		86322568291D253A00662F8C /* hotels.json in Resources */ = {isa = PBXBuildFile; fileRef = 86322567291D253A00662F8C /* hotels.json */; };
 		864C74FA291B5651004DAF22 /* PlaceListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C74F9291B5651004DAF22 /* PlaceListItemView.swift */; };
 		864C74FC291B5920004DAF22 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C74FB291B5920004DAF22 /* PlaceModel.swift */; };
 		864C74FE291B697C004DAF22 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C74FD291B697C004DAF22 /* PlaceDetailView.swift */; };
@@ -59,6 +63,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86322560291CD51A00662F8C /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		86322562291D190600662F8C /* HotelListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelListItemView.swift; sourceTree = "<group>"; };
+		86322565291D20D700662F8C /* HotelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelModel.swift; sourceTree = "<group>"; };
+		86322567291D253A00662F8C /* hotels.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hotels.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		864C74F9291B5651004DAF22 /* PlaceListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListItemView.swift; sourceTree = "<group>"; };
 		864C74FB291B5920004DAF22 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		864C74FD291B697C004DAF22 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
@@ -190,6 +198,7 @@
 			children = (
 				8695C6D0291B3FEC00038F21 /* covers.json */,
 				8695C6C1291B38A400038F21 /* places.json */,
+				86322567291D253A00662F8C /* hotels.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -197,13 +206,14 @@
 		8695C6BA291B32F500038F21 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				8695C6CA291B3B3B00038F21 /* MainView.swift */,
 				8695C68F291B32D300038F21 /* visitSrilankaApp.swift */,
 				8695C691291B32D300038F21 /* ContentView.swift */,
 				8695C6C6291B3B0E00038F21 /* MapView.swift */,
 				8695C6C8291B3B2D00038F21 /* InfoView.swift */,
-				8695C6CA291B3B3B00038F21 /* MainView.swift */,
 				8695C6CC291B3D2F00038F21 /* ContactView.swift */,
 				868F64B4291C94CD00AD0BB7 /* ExploreLankaView.swift */,
+				86322560291CD51A00662F8C /* ShopView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -213,6 +223,7 @@
 			children = (
 				8695C6D2291B429500038F21 /* CoverImageModel.swift */,
 				864C74FB291B5920004DAF22 /* PlaceModel.swift */,
+				86322565291D20D700662F8C /* HotelModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -233,6 +244,7 @@
 				868F64B2291C8BF100AD0BB7 /* MapAnnotationView.swift */,
 				868F64B6291CA9A900AD0BB7 /* PlaceGridItemView.swift */,
 				86A731B0291CC1E600E35FCC /* CreditView.swift */,
+				86322562291D190600662F8C /* HotelListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -366,6 +378,7 @@
 			files = (
 				8695C6C2291B38A400038F21 /* places.json in Resources */,
 				8695C6D1291B3FEC00038F21 /* covers.json in Resources */,
+				86322568291D253A00662F8C /* hotels.json in Resources */,
 				8695C697291B32D400038F21 /* Preview Assets.xcassets in Resources */,
 				8660283E291BADC400F6771F /* Cookie.ttf in Resources */,
 				8695C694291B32D400038F21 /* Assets.xcassets in Resources */,
@@ -396,12 +409,15 @@
 				864C74FC291B5920004DAF22 /* PlaceModel.swift in Sources */,
 				86A731B1291CC1E600E35FCC /* CreditView.swift in Sources */,
 				864C7502291B6D01004DAF22 /* InsetGalleryView.swift in Sources */,
+				86322561291CD51A00662F8C /* ShopView.swift in Sources */,
 				868F64AF291BB12500AD0BB7 /* BMCButtonView.swift in Sources */,
 				8695C6CB291B3B3B00038F21 /* MainView.swift in Sources */,
 				8695C6C9291B3B2D00038F21 /* InfoView.swift in Sources */,
 				868F64B3291C8BF100AD0BB7 /* MapAnnotationView.swift in Sources */,
 				8695C692291B32D300038F21 /* ContentView.swift in Sources */,
 				864C7500291B6C45004DAF22 /* HeadingView.swift in Sources */,
+				86322566291D20D700662F8C /* HotelModel.swift in Sources */,
+				86322563291D190600662F8C /* HotelListItemView.swift in Sources */,
 				868F64B5291C94CD00AD0BB7 /* ExploreLankaView.swift in Sources */,
 				8695C6D5291B435100038F21 /* CodableBundleExtension.swift in Sources */,
 				864C7508291B73D0004DAF22 /* ExternalWeblinkView.swift in Sources */,

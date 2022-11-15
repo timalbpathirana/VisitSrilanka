@@ -11,6 +11,7 @@ struct ContactView: View {
     var body: some View {
         
         VStack (alignment: .leading, spacing: 10) {
+            Spacer()
             Text("Hello, Welcome to Visit Srilanka App")
                 .foregroundColor(.accentColor)
                 .font(.title)
@@ -48,6 +49,7 @@ struct ContactView: View {
                 .fontWeight(.light)
                 .multilineTextAlignment(.leading)
                 BMCButtonView()
+                .modifier(CenterModifier())
             Spacer()
             
         }

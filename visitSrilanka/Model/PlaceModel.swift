@@ -20,6 +20,8 @@ struct Place: Identifiable, Codable {
     let latitude: Double
     let longitude: Double
     let ticket: String
+    let distanceFromCMB: String
+    let type : String
     
     
     var location : CLLocationCoordinate2D{

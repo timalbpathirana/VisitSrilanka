@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "LS@1x.png",
+      "filename" : "seasonfour2.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "LS@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "LS@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

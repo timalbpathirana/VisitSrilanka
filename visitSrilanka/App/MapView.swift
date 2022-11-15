@@ -50,11 +50,6 @@ struct MapView: View {
     }) //: MAP
     .overlay(
       HStack(alignment: .center, spacing: 12) {
-        Image("compass")
-          .resizable()
-          .scaledToFit()
-          .frame(width: 48, height: 48, alignment: .center)
-        
         VStack(alignment: .leading, spacing: 3) {
           HStack {
             Text("Latitude:")
